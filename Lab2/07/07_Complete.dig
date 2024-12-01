@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>X0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="160" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>X1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Selector</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Z</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="180" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="260" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation reference="../../../../visualElement[6]/elementAttributes/entry/rotation"/>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="60"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="660" y="80"/>
+      <p2 x="800" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="100"/>
+      <p2 x="580" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="100"/>
+      <p2 x="420" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="20"/>
+      <p2 x="420" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="40"/>
+      <p2 x="540" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="120"/>
+      <p2 x="540" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-60"/>
+      <p2 x="180" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-60"/>
+      <p2 x="260" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-60"/>
+      <p2 x="340" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="60"/>
+      <p2 x="580" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="60"/>
+      <p2 x="420" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="140"/>
+      <p2 x="420" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-80"/>
+      <p2 x="160" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="100"/>
+      <p2 x="160" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-60"/>
+      <p2 x="160" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-80"/>
+      <p2 x="240" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="20"/>
+      <p2 x="240" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="-60"/>
+      <p2 x="240" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-80"/>
+      <p2 x="320" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-60"/>
+      <p2 x="320" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="60"/>
+      <p2 x="320" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="-60"/>
+      <p2 x="180" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="0"/>
+      <p2 x="180" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="-60"/>
+      <p2 x="260" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="0"/>
+      <p2 x="260" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-60"/>
+      <p2 x="340" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="0"/>
+      <p2 x="340" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="140"/>
+      <p2 x="340" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="40"/>
+      <p2 x="540" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="100"/>
+      <p2 x="540" y="120"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
